@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta
+    name="viewport"
+    content="width=device-width,initial-scale=1.0"
+  >
+  <title>Required</title>
+  <link
+    href="./asset/screen.css"
+    rel="stylesheet"
+  >
+</head>
+<body>
+  <main>
+    <h1>Required</h1>
+    <form>
+      <div>
+        <label for="r1">Default state</label>
+        <input
+          id="r1"
+          required
+        >
+      </div>
+      <div>
+        <label for="r2">Explicitly valid</label>
+        <p id="d2">Using <code>aria-invalid="false"</code></p>
+        <input
+          id="r2"
+          aria-invalid="false"
+          required
+        >
+      </div>
+    </form>
+  </main>
+</body>
+</html>
